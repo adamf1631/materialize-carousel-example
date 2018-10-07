@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>SDS APP</title>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+		$(document).ready(function(){
+		  $('.carousel').carousel(
+		  {
+			dist: 0,
+			padding: 0,
+			fullWidth: true,
+			indicators: true,
+			duration: 300,
+		  }
+		  );
+		});
+
+		autoplay()   
+		function autoplay() {
+			$('.carousel').carousel('next');
+			setTimeout(autoplay, 4500);
+		}
+      
+	</script>
+<style>
+
+	.carousel-item{
+		height:90vh;
+	}
+	.carousel {
+		height:90vh;
+		margin-bottom: 85px;
+	}
+	.carousel a {
+		margin-bottom: 75px;
+		float: right;
+	}
+
+
+footer {
+	color:white;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+
+}
+	</style>
+</head>
+
+
+<body class="grey lighten-2">
+
+
+<nav class="grey darken-3">
+	<div class="nav-wrapper">
+		<a href="#" class="brand-logo">Welcome to the Materialize Carousel Example</a>
+	</div>
+</nav>
+
+			
+			
+<section class="black">
+  <div class="carousel carousel-slider" data-indicators="true">
+    <div class="carousel-fixed-item">
+      <div class="container">
+        <a class="btn btn-large waves-effect white grey-text amber lighten-2" href="http://google.com" target="_blank">Button</a>
+      </div>
+    </div>
+    <div class="carousel-item blue lighten-2 white-text" href="#one!">
+      <div class="container">
+        <h2>First Slide</h2>
+        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus mi, fermentum id bibendum at, semper quis ex. Morbi et enim vel massa malesuada imperdiet nec quis augue. Nullam et eleifend nisi. Integer vitae bibendum urna, sit amet iaculis nisl. Ut ullamcorper nibh nec quam mollis maximus. Donec justo enim, efficitur ut libero vel, interdum rhoncus diam. Suspendisse suscipit lacus volutpat, gravida augue nec, sodales lectus. Nam eget sollicitudin nulla. Quisque congue sit amet dui sed efficitur. Donec tempus mauris auctor leo vulputate accumsan quis in orci.</p>
+        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus mi, fermentum id bibendum at, semper quis ex. Morbi et enim vel massa malesuada imperdiet nec quis augue. Nullam et eleifend nisi. Integer vitae bibendum urna, sit amet iaculis nisl. Ut ullamcorper nibh nec quam mollis maximus. Donec justo enim, efficitur ut libero vel, interdum rhoncus diam. Suspendisse suscipit lacus volutpat, gravida augue nec, sodales lectus. Nam eget sollicitudin nulla. Quisque congue sit amet dui sed efficitur. Donec tempus mauris auctor leo vulputate accumsan quis in orci.</p>
+      </div>  
+    </div>
+    <div class="carousel-item blue darken-2 white-text " href="#two!">
+      <div class="container">
+        <h2>Second Slide</h2>
+        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus mi, fermentum id bibendum at, semper quis ex. Morbi et enim vel massa malesuada imperdiet nec quis augue. Nullam et eleifend nisi. Integer vitae bibendum urna, sit amet iaculis nisl. Ut ullamcorper nibh nec quam mollis maximus. Donec justo enim, efficitur ut libero vel, interdum rhoncus diam. Suspendisse suscipit lacus volutpat, gravida augue nec, sodales lectus. Nam eget sollicitudin nulla. Quisque congue sit amet dui sed efficitur. Donec tempus mauris auctor leo vulputate accumsan quis in orci.</p>
+        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus mi, fermentum id bibendum at, semper quis ex. Morbi et enim vel massa malesuada imperdiet nec quis augue. Nullam et eleifend nisi. Integer vitae bibendum urna, sit amet iaculis nisl. Ut ullamcorper nibh nec quam mollis maximus. Donec justo enim, efficitur ut libero vel, interdum rhoncus diam. Suspendisse suscipit lacus volutpat, gravida augue nec, sodales lectus. Nam eget sollicitudin nulla. Quisque congue sit amet dui sed efficitur. Donec tempus mauris auctor leo vulputate accumsan quis in orci.</p>
+      </div>  
+    </div>
+    <div class="carousel-item blue lighten-2 white-text" href="#three!">
+      <div class="container">
+        <h2>Third Slide</h2>
+        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus mi, fermentum id bibendum at, semper quis ex. Morbi et enim vel massa malesuada imperdiet nec quis augue. Nullam et eleifend nisi. Integer vitae bibendum urna, sit amet iaculis nisl. Ut ullamcorper nibh nec quam mollis maximus. Donec justo enim, efficitur ut libero vel, interdum rhoncus diam. Suspendisse suscipit lacus volutpat, gravida augue nec, sodales lectus. Nam eget sollicitudin nulla. Quisque congue sit amet dui sed efficitur. Donec tempus mauris auctor leo vulputate accumsan quis in orci.</p>
+        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus mi, fermentum id bibendum at, semper quis ex. Morbi et enim vel massa malesuada imperdiet nec quis augue. Nullam et eleifend nisi. Integer vitae bibendum urna, sit amet iaculis nisl. Ut ullamcorper nibh nec quam mollis maximus. Donec justo enim, efficitur ut libero vel, interdum rhoncus diam. Suspendisse suscipit lacus volutpat, gravida augue nec, sodales lectus. Nam eget sollicitudin nulla. Quisque congue sit amet dui sed efficitur. Donec tempus mauris auctor leo vulputate accumsan quis in orci.</p>
+      </div>  
+    </div>
+    <div class="carousel-item blue darken-2 white-text " href="#four!">
+      <div class="container">
+        <h2>Fourth Slide</h2>
+        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus mi, fermentum id bibendum at, semper quis ex. Morbi et enim vel massa malesuada imperdiet nec quis augue. Nullam et eleifend nisi. Integer vitae bibendum urna, sit amet iaculis nisl. Ut ullamcorper nibh nec quam mollis maximus. Donec justo enim, efficitur ut libero vel, interdum rhoncus diam. Suspendisse suscipit lacus volutpat, gravida augue nec, sodales lectus. Nam eget sollicitudin nulla. Quisque congue sit amet dui sed efficitur. Donec tempus mauris auctor leo vulputate accumsan quis in orci.</p>
+        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus mi, fermentum id bibendum at, semper quis ex. Morbi et enim vel massa malesuada imperdiet nec quis augue. Nullam et eleifend nisi. Integer vitae bibendum urna, sit amet iaculis nisl. Ut ullamcorper nibh nec quam mollis maximus. Donec justo enim, efficitur ut libero vel, interdum rhoncus diam. Suspendisse suscipit lacus volutpat, gravida augue nec, sodales lectus. Nam eget sollicitudin nulla. Quisque congue sit amet dui sed efficitur. Donec tempus mauris auctor leo vulputate accumsan quis in orci.</p>
+      </div>  
+    </div>
+    <div class="carousel-item blue lighten-2 white-text " href="#five!">
+      <div class="container">
+        <h2>Fifth Slide</h2>
+        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus mi, fermentum id bibendum at, semper quis ex. Morbi et enim vel massa malesuada imperdiet nec quis augue. Nullam et eleifend nisi. Integer vitae bibendum urna, sit amet iaculis nisl. Ut ullamcorper nibh nec quam mollis maximus. Donec justo enim, efficitur ut libero vel, interdum rhoncus diam. Suspendisse suscipit lacus volutpat, gravida augue nec, sodales lectus. Nam eget sollicitudin nulla. Quisque congue sit amet dui sed efficitur. Donec tempus mauris auctor leo vulputate accumsan quis in orci.</p>
+        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus mi, fermentum id bibendum at, semper quis ex. Morbi et enim vel massa malesuada imperdiet nec quis augue. Nullam et eleifend nisi. Integer vitae bibendum urna, sit amet iaculis nisl. Ut ullamcorper nibh nec quam mollis maximus. Donec justo enim, efficitur ut libero vel, interdum rhoncus diam. Suspendisse suscipit lacus volutpat, gravida augue nec, sodales lectus. Nam eget sollicitudin nulla. Quisque congue sit amet dui sed efficitur. Donec tempus mauris auctor leo vulputate accumsan quis in orci.</p>
+      </div>  
+    </div>
+  </div>
+</section>
+
+
+
+
+<footer class="amber lighten-2">
+	<p>Thank you for using our Services. &copy; 2018</p>
+</footer>
+
+
+</body>
+</html>
